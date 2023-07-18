@@ -1,0 +1,14 @@
+equal_im_1_2 224
+add_im_1_2 192
+in 7
+add_im_2 64
+add 0
+r0 0
+out 7
+add_im_1 128
+r2 2
+sub 1
+less 34
+equal 32
+r1 1
+inf_0_loop 224

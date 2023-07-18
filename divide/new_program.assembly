@@ -1,0 +1,15 @@
+label setup
+add_im_1 0 in r0 # Num
+add_im_1 0 in r1 # Denom
+
+# r2 = quotient
+
+label loop
+less r0 r1 return
+add_im_2 r2 1 r2
+sub r0 r1 r0
+inf_0_loop 0 0 loop
+
+label return
+add_im_2 r2 0 out
+add_im_2 r0 0 out
